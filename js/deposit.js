@@ -23,6 +23,7 @@ const currentBalanceToatal = previousBalanceTotal+newDipositAmmount;
 
 //set the balance total
 balanceTotalElement.innerText = currentBalanceToatal;
+
 //step-7 clear the deposit field
 dipositField.value = '';
 })
